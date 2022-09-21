@@ -214,34 +214,34 @@ Create the GraphQL Server for  Node.js App
 
 After running the create query you recive the folowing output
 
-{
-  "data": {
-    "quotes": [
-      {
-        "id": "9fe7d64e-5103-44f1-b4a1-322ab1f812fa",
-        "phrase": "I'm a leaf on the wind. Watch how I soar.",
-        "quotee": "Wash"
-      },
-      {
-        "id": "f597f384-6f33-4f65-83d0-992e1f146d4c",
-        "phrase": "We're all stories in the end.",
-        "quotee": "The Doctor"
-      },
-      {
-        "id": "d6fde7e7-7d6d-45c8-855b-cd50a10f52c7",
-        "phrase": "Woah!",
-        "quotee": "Neo"
-      },
-      {
-        "id": "9e46ec20-1b6a-4bd5-87d6-d53fbf9bd183",
-        "phrase": "You know nothing, Jon Snow.",
-        "quotee": null
-      },
-      {
-        "id": "82c48be4-2bc0-49ff-aa0f-eaa1ad5b6f4d",
-        "phrase": "You know nothing, Jon Snow.",
-        "quotee": null
-      }
-    ]
-  }
-}
+	{
+	  "data": {
+	    "quotes": [
+	      {
+		"id": "9fe7d64e-5103-44f1-b4a1-322ab1f812fa",
+		"phrase": "I'm a leaf on the wind. Watch how I soar.",
+		"quotee": "Wash"
+	      },
+	      {
+		"id": "f597f384-6f33-4f65-83d0-992e1f146d4c",
+		"phrase": "We're all stories in the end.",
+		"quotee": "The Doctor"
+	      },
+	      {
+		"id": "d6fde7e7-7d6d-45c8-855b-cd50a10f52c7",
+		"phrase": "Woah!",
+		"quotee": "Neo"
+	      },
+	      {
+		"id": "9e46ec20-1b6a-4bd5-87d6-d53fbf9bd183",
+		"phrase": "You know nothing, Jon Snow.",
+		"quotee": null
+	      },
+	      {
+		"id": "82c48be4-2bc0-49ff-aa0f-eaa1ad5b6f4d",
+		"phrase": "You know nothing, Jon Snow.",
+		"quotee": null
+	      }
+	    ]
+       }
+ }
