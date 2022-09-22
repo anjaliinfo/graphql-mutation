@@ -34,7 +34,7 @@ Create the GraphQL Server for  Node.js App
     
     Edit  package.json and the following in scripts section
 
-    {
+        {
   		"start": "node .",
   		"test": "eslint ."
 	}
@@ -54,7 +54,7 @@ Create the GraphQL Server for  Node.js App
 	Create a new index.js file and the following code 
 
 	const { ApolloServer, gql } = require('apollo-server');
-    const uuid = require('uuid/v4');
+       const uuid = require('uuid/v4');
 
 	const typeDefs = gql`
 	  type Quote {
@@ -98,13 +98,13 @@ Create the GraphQL Server for  Node.js App
 
    Run the following query 
 
-   {
+     {
 	    quotes {
 	      phrase
 	      quotee
 	    }
 
-    }
+      }
 
 
   And you will see the output 
