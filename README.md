@@ -34,10 +34,10 @@ Create the GraphQL Server for  Node.js App
     
     Edit  package.json and the following in scripts section
 
-        {
+            {
   		"start": "node .",
   		"test": "eslint ."
-	}
+	     }
 
 	It allows editors to give warnings and can also use npm test to see list of warnings and errors.
 
