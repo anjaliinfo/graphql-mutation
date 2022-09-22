@@ -151,32 +151,32 @@ Create the GraphQL Server for  Node.js App
    Then create resolvers to handle these mutation types
 
 
-   const resolvers = {
-  	// Add below existing Query resolver
-	  Mutation: {
-	    addQuote: async (parent, quote) => {
-	      return addQuote(quote);
-	    },
-	    editQuote: async (parent, { id, ...quote }) => {
-	      if (!quotes[id]) {
-	        throw new Error("Quote doesn't exist");
-	      }
+   	  const resolvers = {
+		// Add below existing Query resolver
+		  Mutation: {
+		    addQuote: async (parent, quote) => {
+		      return addQuote(quote);
+		    },
+		    editQuote: async (parent, { id, ...quote }) => {
+		      if (!quotes[id]) {
+			throw new Error("Quote doesn't exist");
+		      }
 
-	      quotes[id] = {
-	        ...quotes[id],
-	        ...quote,
-	      };
+		      quotes[id] = {
+			...quotes[id],
+			...quote,
+		      };
 
-	      return quotes[id];
-	    },
-	    deleteQuote: async (parent, { id }) => {
-	      const ok = Boolean(quotes[id]);
-	      delete quotes[id];
+		      return quotes[id];
+		    },
+		    deleteQuote: async (parent, { id }) => {
+		      const ok = Boolean(quotes[id]);
+		      delete quotes[id];
 
-	      return { ok };
-	    },
-	  },
-	};
+		      return { ok };
+		    },
+		  },
+	    };
 
 
    Re-start the server and run the following queries.
