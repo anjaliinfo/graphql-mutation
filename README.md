@@ -2,7 +2,7 @@
 Graphql Example to understand  Mutations and Resolvers implementation
 
  
-Basic CRUD Application with Node.js and GraphQL
+# Basic CRUD Application with Node.js and GraphQL
 
 
 Create the GraphQL Server for  Node.js App
