@@ -1,4 +1,4 @@
-# graphql-mutation
+# GraphQL Mutation
 Graphql Example to understand  Mutations and Resolvers implementation
 
 # Installation
